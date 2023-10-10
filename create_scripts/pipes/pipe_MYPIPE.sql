@@ -1,0 +1,1 @@
+create or replace pipe MYPIPE auto_ingest=false as copy into mytable from @CSVLOADING_D;
